@@ -1,0 +1,41 @@
+/* Miniature */
+.thumbnail {
+    width: 150px;
+    cursor: pointer;
+}
+
+/* Overlay caché par défaut */
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    padding-top: 10%;
+}
+
+/* Quand l'ancre est ciblée, afficher l'overlay */
+.overlay:target {
+    display: block;
+}
+
+/* Image agrandie */
+.popup-img {
+    max-width: 60%;
+    height: auto;
+    border: 5px solid white;
+    border-radius: 10px;
+}
+
+/* Bouton de fermeture */
+.close {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+}

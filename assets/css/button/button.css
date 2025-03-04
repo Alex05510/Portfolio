@@ -1,0 +1,7 @@
+.cta {
+
+    border: solid 1px #000;
+    background-image: url(/assets/images/ec14.jpg);
+    border-radius: 20%;
+    padding: 1rem 2rem;
+}

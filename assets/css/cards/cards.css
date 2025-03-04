@@ -1,0 +1,22 @@
+.cards {
+    width: 22%;
+    margin-left: 4rem;
+}
+
+.card-image {
+    width: 50%;
+}
+
+.card-image-2 {
+    width: 90%;
+    height: auto;
+}
+
+.container-korge .card img {  
+    width: 100%;  
+}
+
+.container-korge .card {
+    margin-left: 2rem;
+}
+
