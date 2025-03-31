@@ -19,8 +19,8 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <div class="container">
+    <header id="scrolled">
+        <div class="container baniere">
             <div class="aboutus">
                 <ul>
                     <li><a href="/index.html">AA</a></li>
@@ -71,39 +71,108 @@
                 <p>HTML</p>
                 <progress id="redbar" value="45" max="100">40 %</progress>
                 <p>JavaScript</p>
-                <progress id="redbar" value="5" max="100">40 %</progress>    
+                <progress id="redbar" value="20" max="100">40 %</progress>    
                <p>CSS</p>
                 <progress id="redbar" value="35" max="100">30 %</progress>
                 <p>UI/UX</p>
                 <progress id="redbar" value="25" max="100">20 %</progress>
         </div>
-    <section class="container-projet">
-        <div class="text">
-            <p class="projet">Projects</p>
+        <div class="accordion">
+            <div class="accordion-item">
+                <div class="accordion-header" onclick="toggleAccordion('section1')">Projects</div>
+                <div class="accordion-body" id="section1">
+                    <section class="container-projet">
+                        <div class="text">
+                            <p class="projet">Projects</p>
+                        </div>
+                        <div class="section" id="projet">
+                            <div class="cards">
+                                <a href="/assets/page Disney/disney.html">
+                                    <img src="/assets/images/projet-disney.png" alt="projet disney" class="card-image-2">
+                                </a>
+                            </div>
+                            <div class="cards">
+                                <img src="/assets/images/MNTN.png" alt="projet mntn" class="card-image-2">
+                            </div>
+                            <div class="cards">
+                                <img src="/assets/images/Design-studio.png" alt="projet mntn" class="card-image-2">
+                            </div>
+                            <div class="cards">
+                                <img src="/assets/images/yellow-kitchen.png" alt="projet mntn" class="card-image-2">
+                            </div>
+                            <div class="cards">
+                                <img src="/assets/images/paris-tokyo.png" alt="projet paris-tokyo" class="card-image-2">
+                            </div>
+                            <div class="cards">
+                                <a href="/assets/Page KorGE/KorGE.html">
+                                    <img src="/assets/images/korGE.png" alt="projet korge" class="card-image-2"></a>
+                               
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-header" onclick="toggleAccordion('section2')">Contact</div>
+                <div class="accordion-body" id="section2">
+                    <section class="container-contact">
+                        <div class="text">
+                            <div class="contact">Contact</div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-header" onclick="toggleAccordion('section3')">Infos</div>
+                <div class="accordion-body" id="section3">
+                    <section class="container-infos">
+                        <div class="text">
+                            <div class="info" id="infos">Infos</div>
+                            <div class="container">
+                                <div class="presentation">
+                                    <h2>De la route au code !</h2>
+                                    <p>Je m'appelle AUDIER Alexandre, ancien routier en reconversion vers le développement web. Après avoir parcouru des kilomètres sur les routes, je me lance dans une nouvelle aventure numérique avec la même passion et détermination.</p>
+                                    <p>Grand amateur de jeux vidéo et de mondes virtuels, j'aime explorer et comprendre les mécaniques qui les rendent immersifs. Aujourd'hui, je transpose cette curiosité au web en créant des interfaces modernes, interactives et engageantes.</p>
+                                    <p>Chaque ligne de code est un nouveau trajet, chaque projet un voyage vers l'inconnu. Mon objectif ? Développer des expériences web performantes et inspirées des univers vidéoludiques que j'adore.</p>
+                                    <p>En formation pour affiner mes compétences et bâtir mon avenir numérique !</p>
+                                    <p>Explorez mon portfolio et découvrez mes projets. Prêt à embarquer ?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
         </div>
-        <div class="section" id="projet">
-            <div class="cards">
-                <a href="/assets/page Disney/disney.html">
-                    <img src="/assets/images/projet-disney.png" alt="projet disney" class="card-image-2">
-                </a>   
+        
+   <!-- <section class="container-projet">
+            <div class="text">
+                <p class="projet accordion" id="btn1">Projects</p>
             </div>
-            <div class="cards">
-                <img src="/assets/images/MNTN.png" alt="projet mntn" class="card-image-2">
+            <div class="section" id="projet">
+                <div class="cards">
+                    <a href="/assets/page Disney/disney.html">
+                        <img src="/assets/images/projet-disney.png" alt="projet disney" class="card-image-2">
+                    </a>  
+                </div>
+                <div class="cards">
+                    <img src="/assets/images/MNTN.png" alt="projet mntn" class="card-image-2">
+                </div>
+                <div class="cards">
+                    <img src="/assets/images/Design-studio.png" alt="projet mntn" class="card-image-2">
+                </div>
+                <div class="cards">
+                    <img src="/assets/images/yellow-kitchen.png" alt="projet mntn" class="card-image-2">
+                </div> 
+                <div class="cards">
+                    <img src="/assets/images/paris-tokyo.png" alt="projet paris-tokyo" class="card-image-2">
+                </div>
+                <div class="cards">
+                    <a href="/assets/Page KorGE/KorGE.html">
+                        <img src="/assets/images/korGE.png" alt="projet korge" class="card-image-2">
+                    </a>
+                </div>
             </div>
-            <div class="cards">
-                <img src="/assets/images/Design-studio.png" alt="projet mntn" class="card-image-2">
-            </div>
-            <div class="cards">
-                <img src="/assets/images/yellow-kitchen.png" alt="projet mntn" class="card-image-2">
-            </div> 
-            <div class="cards">
-                <img src="/assets/images/paris-tokyo.png" alt="projet paris-tokyo" class="card-image-2">
-            </div>
-            <div class="cards">
-                <a href="/assets/Page KorGE/KorGE.html">
-                    <img src="/assets/images/korGE.png" alt="projet korge" class="card-image-2">
-                </a>
-            </div>
+        </div>
         </section>
         <section class="container-contact">
             <div class="text">
@@ -124,7 +193,8 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section>-->
     </main>
 </body>
+<script src="script.js"></script>
 </html>

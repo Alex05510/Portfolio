@@ -8,10 +8,11 @@ header {
     border-radius: 1rem;
     position: fixed;
     width: 95%;
-    background-color: #323033;
+    background: transparent;
     margin-left: 3rem;
     top: 1rem;
 }
+
 
 
 body {   
